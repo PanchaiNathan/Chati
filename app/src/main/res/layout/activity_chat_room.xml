@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGryFix"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/chat_custom_bar" android:id="@+id/bar_chat"/>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ads"
+        tools:ignore="ObsoleteLayoutParam">
+
+    </com.google.android.gms.ads.AdView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rclViewMessages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bar_chat"
+        android:padding="5dp"
+        android:layout_weight="1"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:id="@+id/linearLayout"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/imgBtnSendImage"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                app:srcCompat="@drawable/picture_send"
+                android:background="@color/colorWhite"
+                android:visibility="visible"
+                android:padding="10dp"
+                />
+
+            <EditText
+                android:id="@+id/txtSendMessage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="@color/colorWhite"
+                android:hint="@string/send_message"
+                android:inputType="text"
+                android:maxLength="150"
+                android:maxLines="5"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#949292"
+                android:textColorHint="@color/colorGryForce"
+                android:visibility="visible"
+
+                />
+
+            <ImageView
+                android:id="@+id/imgBtnSend"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                app:srcCompat="@drawable/email_send_icon"
+                android:background="@color/colorWhite"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

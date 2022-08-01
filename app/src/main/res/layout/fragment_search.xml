@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorGryFix"
+    android:padding="5dp"
+    >
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="SHOW MORE"
+       android:id="@+id/btnSHowMore"
+       android:background="@color/colorPrimary"
+       android:textColor="@color/colorWhite"
+       android:visibility="gone"
+       android:layout_marginBottom="8dp"
+       />
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/rcSearchUsers"
+       >
+
+
+   </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rifcode.chatiw">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chati_icon512"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/chati_icon512"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <!--<activity android:name=".PurchaseActivity"></activity>-->
+        <activity android:name="com.rifcode.chatiw.Home.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rifcode.chatiw.Login.RegisterActivity"
+            android:parentActivityName="com.rifcode.chatiw.Login.LoginActivity" />
+
+
+        <activity
+            android:name="com.rifcode.chatiw.Login.RegisterContinueActivity"
+             />
+
+        <activity
+            android:name="com.rifcode.chatiw.Home.AccountFrag"
+            android:parentActivityName="com.rifcode.chatiw.Home.MainActivity" />
+        <activity android:name="com.rifcode.chatiw.Login.LoginActivity" />
+        <activity android:name="com.rifcode.chatiw.Login.PolicyActivity"
+            android:parentActivityName="com.rifcode.chatiw.Login.RegisterActivity"
+            />
+        <activity
+            android:name="com.rifcode.chatiw.Chat.ChatRoomActivity"
+            android:parentActivityName="com.rifcode.chatiw.Home.MainActivity" />
+        <activity
+            android:name="com.rifcode.chatiw.Chat.ChatUserActivity"
+            android:parentActivityName="com.rifcode.chatiw.Home.MainActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <activity android:name="com.rifcode.chatiw.Chat.VideoChatViewActivity" />
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+
+
+    </application>
+
+</manifest>

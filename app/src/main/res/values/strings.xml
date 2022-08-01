@@ -1,0 +1,194 @@
+<resources>
+
+
+    <!--   test ads banner : ca-app-pub-3940256099942544/6300978111-->
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <string name="agora_app_id" translatable="false">put here</string>
+    <!-- Obtain a temp Access Token at https://dashboard.agora.io -->
+    <!-- You will need to deploy your own token server for production release -->
+    <!-- Leave this value empty if Security keys/Token is not enabled for your project -->
+    <string name="agora_access_token" translatable="false">#YOUR ACCESS TOKEN#</string>
+
+
+    <!--  ADS ADMOB -->
+    <string name="banner_ads" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="NativeAdmobID" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="InterstitialAdAdmobID" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--  ADS FACEBOOK -->
+    <string name="NativeAds_Facebook" translatable="false">728146827632560_827238054390103</string>
+    <string name="Interstitial_FacebbokAds" translatable="false">728146827632560_833272517119990</string>
+    <string name="Banner_ads_facebook" translatable="false">IMG_16_9_APP_INSTALL#728146827632560_827277211052854</string>
+
+    <string name="app_name" translatable="false">Chati</string>
+
+    <!--  firebase don't translate those elements below-->
+    <string name="fb_username">username</string>
+    <string name="fb_email">email</string>
+    <string name="fb_pass">password</string>
+    <string name="fb_image">image</string>
+    <string name="fb_thumb_image">thumb_image</string>
+    <string name="fb_country">country</string>
+    <string name="fb_sex">sex</string>
+    <string name="fb_age">age</string>
+    <string name="fb_relationship">relationship</string>
+    <!-- end firebase -->
+
+    <string-array name="relationShip">
+        <item>Single</item>
+        <item>In a relationship</item>
+        <item>Engaged</item>
+        <item>In an open relationship</item>
+        <item>It\'s complicated</item>
+        <item>In a civil union</item>
+        <item>Separated</item>
+        <item>Married</item>
+        <item>In a domestic partnership</item>
+        <item>Widowed</item>
+        <item>Divorced</item>
+        <item>None</item>
+    </string-array>
+
+    <string name="sp_single">Single</string>
+    <string name="sp_relatio">In a relationship</string>
+    <string name="sp_engeg">Engaged</string>
+    <string name="sp_inopen">In an open relationship</string>
+    <string name="sp_itcomp">It\'s complicated</string>
+    <string name="sp_in">In a civil union</string>
+    <string name="sp_sep">Separated</string>
+    <string name="sp_marr">Married</string>
+    <string name="sp_indo">In a domestic partnership</string>
+    <string name="sp_wid">Widowed</string>
+    <string name="sp_div">Divorced</string>
+    <string name="sp_none">None</string>
+
+    <string name="profile_munu">Setting Account</string>
+    <string name="menu_log_out">Log out</string>
+    <string name="signup_sucess">Auth Success</string>
+    <string name="username_sixcharacteres"><![CDATA[Failed username should be > 6 characters]]></string>
+    <string name="help_isEmpty"> - All entries should be empty.</string>
+    <string name="help_auth"> - Failed Authentication : Your password or email incorrect try again.</string>
+    <string name="help_passwordShould"> - Failed Authentication : Password should be at least 6 characters.</string>
+    <string name="email_exist_help">email is already exist</string>
+    <string name="you_gone_some_error">You gone some error</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="sex">Sex :</string>
+    <string name="age">Age :</string>
+    <string name="country">Country :</string>
+    <string name="chat_room">Chat Room</string>
+    <string name="messenger">Messenger</string>
+    <string name="select_gallery">Select Gallery</string>
+    <string name="image_upload">Image Upload.....</string>
+    <string name="error_in_uploding_image">error in uploading thumbnail</string>
+    <string name="success_upload_image">Success Uploading</string>
+    <string name="waiting">Waiting …</string>
+    <string name="send_message">Write a message</string>
+    <string name="messenger_soon">Messenger Soon</string>
+    <string name="email_account">Email :</string>
+    <string name="relationship">Relationship :</string>
+    <string name="none">None</string>
+    <string name="algeria">Algeria</string>
+    <string name="bahr">Bahrain</string>
+    <string name="como">Comoros</string>
+    <string name="dji">Djibouti</string>
+    <string name="egy">Egypt</string>
+    <string name="irq">Iraq</string>
+    <string name="jord">Jordan</string>
+    <string name="kut">Kuwait</string>
+    <string name="leb">Lebanon</string>
+    <string name="lib">Libya</string>
+    <string name="maur">Mauritania</string>
+    <string name="mar">Morocco</string>
+    <string name="omar">Oman</string>
+    <string name="pals">Palestine</string>
+    <string name="qatar">Qatar</string>
+    <string name="saud">Saudi</string>
+    <string name="sud">Sudan</string>
+    <string name="syr">Syria</string>
+    <string name="sola">Somalia</string>
+    <string name="tun">Tunisia</string>
+    <string name="uae">UAE</string>
+    <string name="yem">Yemen</string>
+
+    <string-array name="countries">
+
+        <item>Egypt</item>
+        <item>Algeria</item>
+        <item>Sudan</item>
+        <item>Iraq</item>
+        <item>Morocco</item>
+        <item>Saudi Arabia</item>
+        <item>Yemen</item>
+        <item>Syria</item>
+        <item>Somalia</item>
+        <item>Tunisia</item>
+        <item>UAE</item>
+        <item>Jordan</item>
+        <item>Libya</item>
+        <item>Palestine</item>
+        <item>Lebanon</item>
+        <item>Oman</item>
+        <item>Kuwait</item>
+        <item>Mauritania</item>
+        <item>Qatar</item>
+        <item>Bahrain</item>
+        <item>Djibouti</item>
+        <item>Comoros</item>
+
+    </string-array>
+
+    <string name="search_by_username">Search by username</string>
+    <string name="man">Man</string>
+    <string name="woman">Woman</string>
+    <string name="send_message_tiuser">Send Message</string>
+    <string name="chat_title">CHAT</string>
+    <string name="last_msg">See last message</string>
+    <string name="pay_to_remove_ads">Pay 4.99 $ to Remove Ads</string>
+
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you enjoy playing this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <string name="payment_unsuccessful">Payment unsuccessful</string>
+    <string name="payment_successful">Payment successful</string>
+    <string name="pay_toremoveads">Pay to remove ADS</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_image">Change Image</string>
+    <string name="_5_month">$ 5 / month</string>
+    <string name="_15_3_months">$ 15 / 3 months</string>
+    <string name="_60_year">$ 60 / year</string>
+    <string name="pay_for_1_month">Pay for 1 month</string>
+    <string name="pay_for_1_year">Pay for 1 year</string>
+    <string name="pay_for_3_month">Pay for 3 month</string>
+
+
+
+    <string name="laws">Application Laws: \n\n\n* Prevents exchange of phone numbers or external links. \n* Prevents call request outside application. \n* Prevents insulting or cursing in conversation. \n* Prevents viewing of pornographic images. \n* Application is not for the application of fun marriage or customary marriage. \n* The application is not to request a so-called temporary marriage. \n* Not dirty chat or chat net</string>
+    <string name="policy_accept">Read and accept application laws to sign up</string>
+    <string name="need_acceplt">You need to read and accept application laws to sign up</string>
+    <string name="laws_tv">LAWS</string>
+    <string name="abuse_of_content">Abuse of content</string>
+    <string name="report_abuse_contnat">Report abuse of content</string>
+    <string name="report_abuse_description">Click (SEND) if :
+        \n\n* (s)he bother you.
+        \n* (s)he use pornoghraphy images.
+        \n* (s)he send you abusive messages</string>
+    <string name="send">SEND</string>
+    <string name="send_succes">Send Successfully</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="caly">Calling You</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="ws">Waiting Sign up…</string>
+    <string name="wsin">Waiting Sign in…</string>
+    <string name="gdd">Google sign in failed</string>
+
+</resources>

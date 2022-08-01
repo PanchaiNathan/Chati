@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/parent_layout"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border_name_country"
+        android:padding="10dp"
+        >
+
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:id="@+id/imgvCountry"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            />
+
+        <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNameCountry"
+            android:text="Name"
+            android:textColor="@color/colorBlackPure"
+            android:background="@drawable/border_name_country_with_color"
+            android:padding="8dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>

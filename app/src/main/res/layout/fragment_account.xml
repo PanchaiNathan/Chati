@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:padding="10dp"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:id="@+id/lyiformation"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgvSetting"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/no_image_profile"
+                    app:civ_border_color="@color/colorBlue"
+                    app:civ_border_width="1.5dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/imageProfile"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+
+                    >
+
+
+                    <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+                        android:id="@+id/tvUsernameSetting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/username"
+                        android:textSize="30dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorBlackOne"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/imgvLogOut"
+                        android:src="@drawable/ic_logout"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/btnChangeImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:layout_margin="12dp"
+                    android:layout_gravity="center"
+                    android:text="@string/change_image"
+                    android:textColor="@color/colorWhite"
+                    android:background="@color/colorWistiria"
+
+                    />
+
+                <Button
+                    android:id="@+id/btnEditAcount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:layout_margin="12dp"
+                    android:layout_gravity="center"
+                    android:text="@string/edit_profile"
+                    android:textColor="@color/colorWhite"
+                    android:background="@color/colorVertbyrry"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/lybtn"
+                android:layout_marginTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingBottom="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    >
+
+                    <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorVertbyrry"
+                        android:layout_margin="5dp"
+                        android:text="@string/age"
+                        />
+
+                    <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvAge"
+                        android:textSize="17sp"
+                        android:layout_margin="5dp"
+
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingBottom="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="3dp"
+                    >
+
+
+                    <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email_account"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorVertbyrry"
+                        android:layout_margin="5dp"
+
+                        />
+                    <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvEmailSetting"
+                        android:textSize="17sp"
+                        android:layout_margin="5dp"
+
+                        />
+
+                    <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/relationship"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorVertbyrry"
+                        android:layout_margin="5dp"
+
+                        />
+                    <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvRelationship"
+                        android:textSize="17sp"
+                        android:layout_margin="5dp"
+
+                        />
+
+
+                    </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

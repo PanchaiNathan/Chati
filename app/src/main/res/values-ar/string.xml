@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">Chati</string>
+
+
+    <string name="banner1">412048052779641_412061679444945</string>
+    <string name="banner2">412048052779641_412061812778265</string>
+    <string name="interstital">412048052779641_412050966112683</string>
+
+    <!--  firebase -->
+    <string name="fb_username">username</string>
+    <string name="fb_email">email</string>
+    <string name="fb_pass">password</string>
+    <string name="fb_image">image</string>
+    <string name="fb_thumb_image">thumb_image</string>
+    <string name="fb_country">country</string>
+    <string name="fb_sex">sex</string>
+    <string name="fb_age">age</string>
+    <string name="fb_relationship">relationship</string>
+    <!-- end firebase -->
+
+
+    <string-array name="relationShip">
+        <item>أعزب(ة)</item>
+        <item>فى علاقة</item>
+        <item>مخطوب(ة)</item>
+        <item>فى علاقة مفتوحة</item>
+        <item>انه لامر معقد</item>
+        <item>في اتحاد مدني</item>
+        <item>منفصل(ة)</item>
+        <item>متزوج(ة)</item>
+        <item>شراكة محلية</item>
+        <item>أرمل(ة)</item>
+        <item>مطلق(ة)</item>
+        <item>لا شيء</item>
+    </string-array>
+
+
+    <string name="profile_munu">اعدادت</string>
+    <string name="menu_log_out">الخروج</string>
+    <string name="signup_sucess">تم الدخول</string>
+    <string name="help_isEmpty">- يجب ألا تكون جميع الحقول فارغة.</string>
+    <string name="help_auth"> - فشل المصادقة: كلمة المرور الخاصة بك أو البريد الإلكتروني غير صحيح حاول مرة أخرى.</string>
+    <string name="help_passwordShould">- المصادقة الفاشلة: يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.</string>
+    <string name="username_sixcharacteres">- المصادقة الفاشلة: يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.</string>
+    <string name="email_exist_help">ايميل موجود مسبقا</string>
+    <string name="you_gone_some_error">اخطاء</string>
+    <string name="password">الكلمة المرور</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="login">الدخول</string>
+    <string name="sign_up">التسجيل</string>
+    <string name="username">اسم</string>
+    <string name="sex">الجنس :</string>
+    <string name="age">العمر :</string>
+    <string name="country">الدولة :</string>
+    <string name="chat_room">غرف التعارف</string>
+    <string name="messenger">الرسائل</string>
+    <string name="select_gallery">اختر المعرض</string>
+    <string name="image_upload">الصورة.....</string>
+    <string name="error_in_uploding_image">خطأ في تحميل</string>
+    <string name="success_upload_image">نجاح تحميل</string>
+    <string name="waiting">انتظر ...</string>
+    <string name="email_account">البريد الالكتروني :</string>
+    <string name="relationship">علاقة عاطفية :</string>
+    <string name="none">None</string>
+    <string name="algeria">الجزائر</string>
+    <string name="bahr">البحرين</string>
+    <string name="como">كموروس</string>
+    <string name="dji">جيبوتي</string>
+    <string name="egy">مصر</string>
+    <string name="irq">العراق</string>
+    <string name="jord">الاردن</string>
+    <string name="kut">الكويت</string>
+    <string name="leb">لبنان</string>
+    <string name="lib">ليبيا</string>
+    <string name="maur">موريطانيا</string>
+    <string name="mar">المغرب</string>
+    <string name="omar">عمان</string>
+    <string name="pals">فلسطين</string>
+    <string name="qatar">قطر</string>
+    <string name="saud">السعودية</string>
+    <string name="sud">سودان</string>
+    <string name="syr">سوريا</string>
+    <string name="sola">صومال</string>
+    <string name="tun">تونس</string>
+    <string name="uae">الامارات ع</string>
+    <string name="yem">اليمن</string>
+    <string name="send_message">اكتب الرسالة</string>
+    <string name="messenger_soon">قريبا</string>
+
+    <string-array name="countries">
+        <item>مصر</item>
+        <item>الجزائر</item>
+        <item>سودان</item>
+        <item>العراق</item>
+        <item>المغرب</item>
+        <item>السعودية</item>
+        <item>اليمن</item>
+        <item>سوريا</item>
+        <item>صومال</item>
+        <item>تونس</item>
+        <item>الامارات ع</item>
+        <item>الاردن</item>
+        <item>ليبيا</item>
+        <item>فلسطين</item>
+        <item>لبنان</item>
+        <item>عمان</item>
+        <item>كويت</item>
+        <item>موريطانيا</item>
+        <item>قطر</item>
+        <item>البحرين</item>
+        <item>جيبوتي</item>
+        <item>كموروس</item>
+    </string-array>
+
+
+    <string name="search_by_username">البحث بالاسم</string>
+    <string name="man">الرجل</string>
+    <string name="woman">امرأة</string>
+    <string name="send_message_tiuser">ارسل الرسالة</string>
+    <string name="chat_title">الدردشة</string>
+    <string name="last_msg">شاهد اخر الرسالة</string>
+    <string name="pay_to_remove_ads">ادفع 4.99 $ ل ازالة الاعلانات</string>
+
+    <string name="rate_dialog_title">تقييم تطبيق</string>
+    <string name="rate_dialog_message">إذا كنت تستمتع  بهذا التطبيق ، فهل تمانع في تقييمه ؟ لن يستغرق أكثر من دقيقة. شكرا لدعمك!</string>
+    <string name="rate_dialog_ok">تقييم الان</string>
+    <string name="rate_dialog_cancel">لاحقا</string>
+    <string name="rate_dialog_no">لا شكرا</string>
+    <string name="payment_unsuccessful">الدفع لم يتم بنجاح</string>
+    <string name="payment_successful">الدفع يتم بنجاح</string>
+    <string name="pay_toremoveads">ادفع ل ازالة الاعلانات</string>
+    <string name="edit_profile">تعديل الحساب</string>
+    <string name="change_image">تغيير الصورة</string>
+
+    <string name="sp_single">أعزب(ة)</string>
+    <string name="sp_relatio">فى علاقة</string>
+    <string name="sp_engeg">مخطوب(ة)</string>
+    <string name="sp_inopen">فى علاقة مفتوحة</string>
+    <string name="sp_itcomp">انه لامر معقد</string>
+    <string name="sp_in">في اتحاد مدني</string>
+    <string name="sp_sep">منفصل(ة)</string>
+    <string name="sp_marr">متزوج(ة)</string>
+    <string name="sp_indo">شراكة محلية</string>
+    <string name="sp_wid">أرمل(ة)</string>
+    <string name="sp_div">مطلق(ة)</string>
+    <string name="sp_none">لا شيء</string>
+
+    <string name="_5_month">$ 5 في شهر واحد</string>
+    <string name="_15_3_months">$ 15 في 3 اشهر</string>
+    <string name="_60_year">$ 60 في عام كامل</string>
+    <string name="pay_for_1_month">ادفع لمدة الشهر</string>
+    <string name="pay_for_1_year">ادفع لمدة عام كامل</string>
+    <string name="pay_for_3_month">ادفع لمدة 3 اشهر</string>
+
+
+    <string name="laws">\nقوانين التطبيق :
+\n* يمنع عرض الصور اباحية و الصور لا اخلاقية
+\n* التطبيق ليس لطلب بما يسمى ب زواج المؤقت أو شات تعب قلبي
+\n* يمنع تبادل ارقام الهواتف أو روابط خارجية.
+\n* يمنع طلب المحادثة خارج التطبيق.
+\n* يمنع سب أو شتم في المحادثة
+\n* التطبيق ليس لطلب زواج المتعة أو زواج عرفي</string>
+    <string name="policy_accept">اقرأ و وافق على قوانين التطيبق</string>
+    <string name="need_acceplt">تحتاج الى قراءة و الموافقة على قوانين تطبيق لتتمكن من التسجيل</string>
+    <string name="laws_tv">قوانين</string>
+    <string name="abuse_of_content">إساءة استخدام المحتوى</string>
+    <string name="report_abuse_description">\nانقر فوق "إرسال" إذا:
+\n*  ازعاج.
+\n*  استخدام الصور الإباحية.
+\n*  ارسال الرسائل مسيئة.
+
+    </string>
+    <string name="report_abuse_contnat">ابلاغ عن اساءة المستخدم</string>
+    <string name="send">ارسال</string>
+    <string name="send_succes">تم ارسال بنجاح</string>
+    <string name="cancel">الغاء</string>
+
+
+
+</resources>

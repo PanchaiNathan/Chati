@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRed"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/imgvCloseUserProfile"
+        android:src="@drawable/ic_ex"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgvUser"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/no_image_profile"
+        app:civ_border_color="@color/colorBlue"
+        app:civ_border_width="1.5dp"
+        android:layout_gravity="center"
+        />
+
+    <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+        android:id="@+id/tvUsernameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+        <ImageView
+            android:id="@+id/imgvReport"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_report"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/banner_rec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"
+            android:text="@string/age"
+            />
+
+        <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAgeUser"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+
+            android:textColor="@color/colorWhite"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        >
+
+
+        <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/relationship"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"
+
+            />
+        <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRelationshipUser"
+            android:textSize="17sp"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"
+
+            />
+
+        <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/country"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"
+
+            />
+        <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCountryProfileUser"
+            android:textSize="17sp"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_message_tiuser"
+        android:layout_margin="20dp"
+        android:id="@+id/btnSendMsg"
+        android:background="@color/colorWhite"
+        />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

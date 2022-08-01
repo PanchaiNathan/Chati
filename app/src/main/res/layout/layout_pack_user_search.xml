@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/civUserSearch"
+            android:layout_width="128dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/no_image_profile" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/civUserSearch"
+            android:layout_alignRight="@+id/civUserSearch"
+            android:layout_alignBottom="@+id/civUserSearch"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/ic_online" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/civUserSearch"
+            android:layout_alignLeft="@+id/civUserSearch"
+            android:layout_alignBottom="@+id/civUserSearch"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/ic_heath" />
+
+
+    </RelativeLayout>
+
+
+    <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUsernameSaerchWorld"
+        android:text="username"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@color/colorVertbyrry"
+        />
+
+
+</LinearLayout>

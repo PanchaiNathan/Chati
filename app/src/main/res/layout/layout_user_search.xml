@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/no_image_profile"
+            android:id="@+id/imgProfileUsername"
+            android:scaleType="centerCrop"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:foregroundGravity="left"
+            app:civ_border_color="@color/colorBlueTwo"
+            app:civ_border_width="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical"
+                >
+
+
+                    <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvUsernameSearch"
+                    android:text="username"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorBlackOne"
+
+                    />
+
+                <com.rifcode.chatiw.Utils.VarelaRoundRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSex"
+                    android:text="sex"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorBlackOne"
+
+                    />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/colorVertbyrry"
+
+        />
+
+
+
+</LinearLayout>
